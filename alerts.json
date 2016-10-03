@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Test3",
+    "function": "add",
+    "timeStamp": true,
+    "type": "alert",
+    "repeat": false,
+    "frequency": "00 05 00 * * *",
+    "content": " Another example using JSON on Heroku",
+    "comments":"Nada"
+  },
+
+  {
+    "name": "pills-1",
+    "function": "add",
+    "timeStamp": true,
+    "type": "alert",
+    "repeat": true,
+    "frequency": "00 00 09 * * *",
+    "content": "Take your pills",
+    "comments":"Nada"
+  },
+
+  {
+    "name": "pills-2",
+    "function": "add",
+    "timeStamp": true,
+    "type": "alert",
+    "repeat": true,
+    "frequency": "00 00 14 * * *",
+    "content": "Take your pills",
+    "comments":"Nada"
+  },
+
+  {
+    "name": "pills-3",
+    "function": "add",
+    "timeStamp": true,
+    "type": "alert",
+    "repeat": true,
+    "frequency": "00 00 21 * * *",
+    "content": "Take your pills",
+    "comments":"Nada"
+  }
+]
