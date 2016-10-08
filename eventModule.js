@@ -1,5 +1,7 @@
 'use strict'
 
+require('dotenv').config();
+
 const fs = require('fs');
 const Twitter = require('twitter');
 const CronJob = require('cron').CronJob;
