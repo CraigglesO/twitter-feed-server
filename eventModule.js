@@ -1,14 +1,14 @@
 'use strict'
 
-var fs = require('fs');
-var Twitter = require('twitter');
-var CronJob = require('cron').CronJob;
+const fs = require('fs');
+const Twitter = require('twitter');
+const CronJob = require('cron').CronJob;
 
-var client = new Twitter({
-  consumer_key: 'eLB1QSwFcniNqkHOEiiYx90h7',
-  consumer_secret: 'yJ8GSJ7A8m33Jkzcmlxqf50SKYxoKQ3mrwmue5a3CpAooZGngz',
-  access_token_key: '3184921843-vCHpMGldieEw0LytzjBWTvZkxlRWQ2fPlR0AhRB',
-  access_token_secret: 'GckzvqsNI65SdWSzqZ5fThTH3Qx5h1aVTrxG57NgkZXoN'
+let client = new Twitter({
+  consumer_key: process.env.CONSUMER_KEY,
+  consumer_secret: process.env.CONSUMER_SECRET,
+  access_token_key: process.env.ACCESS_TOKEN_KEY,
+  access_token_secret: process.env.ACCESS_TOKEN_SECRET
 });
 
 

@@ -5,8 +5,8 @@
     "timeStamp": true,
     "type": "alert",
     "repeat": false,
-    "frequency": "00 05 00 * * *",
-    "content": " Another example using JSON on Heroku",
+    "frequency": "00 47 06 * * *",
+    "content": "This is a test on a new server!",
     "comments":"Nada"
   },
 
